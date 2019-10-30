@@ -7,7 +7,7 @@ import numpy as np
 import cv2 
 from util import *
 from DNModel import net as Darknet
-from img_process import inp_to_image, resize_img
+from img_process import inp_to_image, custom_resize
 import pandas as pd
 import random 
 import pickle as pkl
